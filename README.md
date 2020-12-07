@@ -1,6 +1,6 @@
 # What
 
-这是一个用来记录学习build my own react（https://pomb.us/build-your-own-react/）过程的项目
+这是一个用来记录学习build my own react过程的项目（https://pomb.us/build-your-own-react/）
 
 # Why
 
