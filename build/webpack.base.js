@@ -4,7 +4,7 @@ const {CleanWebpackPlugin} = require('clean-webpack-plugin');
 module.exports = {
     mode: 'development',
     entry: {
-        bundle: path.resolve(__dirname, '../src/stage-0/index.js'),
+        bundle: path.resolve(__dirname, '../src/stage-1/index.js'),
     },
     resolve: {
         extensions: [],

@@ -29,5 +29,3 @@ const element = (
         <b />
     </div>
 )
-
-console.log(JSON.stringify(result));

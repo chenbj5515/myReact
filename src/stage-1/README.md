@@ -1,15 +1,7 @@
-# 利用babel，使用自定义的createElement函数将这段JSX转为目标对象：
+# 写出render函数，将element对象转为实际DOM：
 
 ```
 // 输入：
-<div id="foo">
-    <a>
-    	bar
-	</a>
-	<b />
-</div>
-
-// 目标输出
 {
     "type": "div",
     "props": {
@@ -38,4 +30,7 @@
         ]
     }
 }
+
+// 目标输出
+实际DOM
 ```
