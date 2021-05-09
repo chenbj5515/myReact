@@ -22,9 +22,19 @@ const Didact = {
     createElement
 }
 
+function App() {
+    console.log("I'm a component");
+    return (
+        <div>
+            A component
+        </div>
+    )
+}
+
 /** @jsx Didact.createElement */
 const element = (
     <div id="foo">
+        <App />
         <a>bar</a>
         <b />
     </div>
